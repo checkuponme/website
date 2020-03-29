@@ -3146,6 +3146,7 @@ input, select, textarea {
 				line-height: 1.65em;
 				margin-right: 0.325em;
 				padding: 0 0.125em 0 0.375em;
+				align-content: center;
 			}
 
 			#header .logo:hover strong {
@@ -3376,7 +3377,7 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("/bgrotator.php");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
