@@ -3,12 +3,9 @@
 ## Description
 <!--- Describe your changes in detail -->
 
-<<<<<<< HEAD
 ## Issue URL/Link
 <!--- You must create an issue for this pull request and supply the link here. -->
 
-=======
->>>>>>> f77ed9246c90a01b1ab02f94d04c30ce3a20e2ef
 ## Motivation and Context
 <!--- Why is this change required? What problem does it solve? -->
 <!--- If it fixes an open issue, please link to the issue here. -->
