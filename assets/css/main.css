@@ -2556,7 +2556,7 @@ input, select, textarea {
 		input[type="button"].icon:before,
 		button.icon:before,
 		.button.icon:before {
-			margin-right: 0.5em;
+			margin-right: 0.0em;
 		}
 
 		input[type="submit"].fit,
@@ -2590,7 +2590,7 @@ input, select, textarea {
 		input[type="button"].next,
 		button.next,
 		.button.next {
-			padding-right: 4.5em;
+			padding-right: 1.5em;
 			position: relative;
 		}
 
@@ -2609,7 +2609,7 @@ input, select, textarea {
 				transition: opacity 0.2s ease-in-out;
 				background-position: center right;
 				background-repeat: no-repeat;
-				background-size: 36px 24px;
+				background-size: 1px 24px;
 				content: '';
 				display: block;
 				height: 100%;
@@ -2617,26 +2617,30 @@ input, select, textarea {
 				right: 1.5em;
 				top: 0;
 				vertical-align: middle;
-				width: 36px;
+				width: 1px;
 			}
 
 			input[type="submit"].next:before,
 			input[type="reset"].next:before,
 			input[type="button"].next:before,
 			button.next:before,
+/*
 			.button.next:before {
 				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='36px' height='24px' viewBox='0 0 36 24' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23ffffff%3B stroke-width: 2px%3B %7D%3C/style%3E%3Cline x1='0' y1='12' x2='34' y2='12' /%3E%3Cline x1='25' y1='4' x2='34' y2='12.5' /%3E%3Cline x1='25' y1='20' x2='34' y2='11.5' /%3E%3C/svg%3E");
 			}
+*/
 
 			input[type="submit"].next:after,
 			input[type="reset"].next:after,
 			input[type="button"].next:after,
 			button.next:after,
+/*
 			.button.next:after {
 				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='36px' height='24px' viewBox='0 0 36 24' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %239bf1ff%3B stroke-width: 2px%3B %7D%3C/style%3E%3Cline x1='0' y1='12' x2='34' y2='12' /%3E%3Cline x1='25' y1='4' x2='34' y2='12.5' /%3E%3Cline x1='25' y1='20' x2='34' y2='11.5' /%3E%3C/svg%3E");
 				opacity: 0;
 				z-index: 1;
 			}
+*/
 
 			input[type="submit"].next:hover:after, input[type="submit"].next:active:after,
 			input[type="reset"].next:hover:after,
