@@ -3109,6 +3109,8 @@ input, select, textarea {
 		}
 	}
 
+	
+
 	#header {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -3132,6 +3134,8 @@ input, select, textarea {
 
 		#header .logo {
 			border: 0;
+			margin-top: .5%;
+			margin-left: 2%;
 			display: inline-block;
 			font-size: 0.8em;
 			height: inherit;
@@ -3139,27 +3143,23 @@ input, select, textarea {
 			padding: 0 1.5em;
 		}
 
-			#header .logo strong {
-				-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-				-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-				-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-				transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-				background-color: #ffffff;
-				color: #242943;
-				display: inline-block;
-				line-height: 1.65em;
-				margin-right: 0.325em;
-				padding: 0 0.125em 0 0.375em;
-				align-content: center;
-			}
+		.hvr-grow {
+			display: inline-block;
+			vertical-align: middle;
+			transform: translateZ(0);
+			box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+			backface-visibility: hidden;
+			-moz-osx-font-smoothing: grayscale;
+			transition-duration: 0.3s;
+			transition-property: transform;
+		}
+		
+		.hvr-grow:hover,
+		.hvr-grow:focus,
+		.hvr-grow:active {
+			transform: scale(1.2);
+		}
 
-			#header .logo:hover strong {
-				background-color: #9bf1ff;
-			}
-
-			#header .logo:active strong {
-				background-color: #53e3fb;
-			}
 
 		#header nav {
 			display: -moz-flex;
